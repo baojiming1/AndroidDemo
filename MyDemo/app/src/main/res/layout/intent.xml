@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <my.com.custom.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></my.com.custom.TitleLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="隐式之打开网页"
+        android:id="@+id/Intent"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="传递参数到上一个界面"
+        android:id="@+id/ActivityResult1"
+        />
+
+
+</LinearLayout>

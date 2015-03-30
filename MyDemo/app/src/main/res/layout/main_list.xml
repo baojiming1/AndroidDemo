@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent_Demo"
+        android:id="@+id/IntentDemo"
+        android:onClick="jump"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu_Demo"
+        android:id="@+id/MenuDemo"
+        android:onClick="jump"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="讲解活动的生命周期"
+        android:id="@+id/LifiCycle"
+        android:onClick="jump"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview_demo"
+        android:text="ListView_Demo"
+        android:onClick="jump"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chatView"
+        android:text="聊天室UI列子"
+        android:onClick="jump"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragmentView"
+        android:text="碎片(Fragment)演示"
+        android:onClick="jump"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_news"
+        android:text="碎片新闻Demo"
+        android:onClick="jump"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/broadCast_main"
+        android:text="广播机制Demo"
+        android:onClick="jump"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/database_demo"
+        android:text="SQLLite demo"
+        android:onClick="jump"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_provider_demo"
+        android:text="内容提供器Demo"
+        android:onClick="jump"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/other_demo"
+        android:text="其他手机运用Demo"
+        android:onClick="jump"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/server_handler_demo"
+        android:text="异步改变UI"
+        android:onClick="jump"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WebViewDemo"
+        android:id="@+id/web_view_demo"
+        android:onClick="jump"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HttpURLConnection Demo"
+        android:id="@+id/HttpURLConnection_demo"
+        android:onClick="jump"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LBS_DEMO"
+        android:id="@+id/lbs_demo"
+        android:onClick="jump"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="传感器Demo"
+        android:id="@+id/sensor_demo"
+        android:onClick="jump"
+        />
+
+
+</LinearLayout>
